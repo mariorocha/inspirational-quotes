@@ -5,4 +5,5 @@ function getQuote() {
     console.log(quote);
 }
 
+getQuote();
 setInterval(getQuote, 5000);
